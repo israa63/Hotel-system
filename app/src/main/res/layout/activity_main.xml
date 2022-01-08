@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hotel_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/form_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:fontFamily="cursive"
+                android:text="Welcome to Hotel"
+                android:textColor="#FB2121"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/txt"
+                app:srcCompat="@drawable/single" />
+
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:text="This is a single room with all the features of a bathroom, refrigerator, heating and other amenities"
+                android:textColor="#0C0D0E"
+
+                android:textSize="20dp"
+               />
+
+            <Button
+                android:id="@+id/but1"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but1"
+                app:srcCompat="@drawable/img_1" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:text="A single room, which may have one  bed. The room size or the area of single rooms generally ranges from 37 square meters to 45 square meters."
+                android:textColor="#0C0D0E"
+                android:textSize="20dp"
+                 />
+            <Button
+                android:id="@+id/but2"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but2"
+                app:srcCompat="@drawable/img_3" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image3"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:text="A room for two people, you may have one or more beds. The room size or the area of double rooms generally ranges from 40 m² to 45 m²."
+                android:textColor="#0C0D0E"
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/but3"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt4"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but3"
+                app:srcCompat="@drawable/img_2" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:text="A single room, which may have one  bed. The room size or the area of single rooms generally ranges from 37 square meters to 45 square meters."
+                android:textSize="20dp"
+                android:textColor="#0C0D0E"
+                 />
+            <Button
+                android:id="@+id/but4"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt5"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but4"
+                app:srcCompat="@drawable/img_4" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image5"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:textColor="#0C0D0E"
+                android:text="A room for two people, you may have one or more beds. The room size or the area of double rooms generally ranges from 40 m² to 45 m²."
+                android:textSize="20dp"
+               />
+            <Button
+                android:id="@+id/but5"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt6"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but5"
+                app:srcCompat="@drawable/img_5" />
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image6"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:textColor="#0C0D0E"
+                android:text="A room for two people, you may have one or more beds. The room size or the area of double rooms generally ranges from 40 m² to 45 m²."
+                android:textSize="20dp"
+                 />
+            <Button
+                android:id="@+id/but6"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt7"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but6"
+                app:srcCompat="@drawable/images_8" />
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image7"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:textColor="#0C0D0E"
+                android:text="A room for two people, you may have one or more beds. The room size or the area of double rooms generally ranges from 40 m² to 45 m²."
+                android:textSize="20dp"
+                 />
+            <Button
+                android:id="@+id/but7"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt8"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but7"
+                app:srcCompat="@drawable/quad"/>
+
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image8"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:textColor="#0C0D0E"
+                android:text="A room for four people, you may have two or more beds. The room size or area of the Quad rooms generally ranges around 70 metres."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/but8"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt9"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+            <ImageView
+                android:id="@+id/image9"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but8"
+                app:srcCompat="@drawable/quad2"
+                 />
+
+            <TextView
+                android:id="@+id/txt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image9"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:textColor="#0C0D0E"
+                android:text="A room for four people, you may have two or more beds. The room size or area of the Quad rooms generally ranges around 70 metres."
+                android:textSize="20dp"
+                 />
+            <Button
+                android:id="@+id/but9"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt10"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+            <ImageView
+                android:id="@+id/image10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but9"
+                app:srcCompat="@drawable/triple"
+                />
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image10"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:textColor="#0C0D0E"
+                android:text="Room for 3 people, equipped with 3 twin beds, 1 double bed, 1 twin bed or 2 double beds. The room size or area of triple rooms is generally between 45 square meters and 65 square metres."
+                android:textSize="20dp"
+                />
+            <Button
+                android:id="@+id/but10"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt11"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+
+            <ImageView
+                android:id="@+id/image11"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/but10"
+                app:srcCompat="@drawable/triple2"
+                />
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image11"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:textColor="#0C0D0E"
+                android:text="Room for 3 people, equipped with 3 twin beds, 1 double bed, 1 twin bed or 2 double beds. The room size or area of triple rooms is generally between 45 square meters and 65 square metres."
+                android:textSize="20dp"
+                 />
+            <Button
+                android:id="@+id/but11"
+                android:layout_width="162dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt12"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="125dp"
+                android:gravity="center"
+                android:onClick="BookNow"
+                android:text="Book Now" />
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
+
+
